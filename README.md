@@ -2,7 +2,7 @@
 
 >pip install -r requirements.txt
 
-В keys.txt приватники с "0x" в начале
+В data/keys.txt приватники с "0x" в начале
 
 Настройте сон, использование прокси и количество потоков в congfig.py
 

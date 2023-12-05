@@ -29,7 +29,7 @@ async def main():
 
         time = random.randint(MIN_DELAY_ACC, MAX_DELAY_ACC)
         logger.debug(f"Sleeping {time} seconds between accs")
-        await asyncio.sleep()
+        await asyncio.sleep(time)
     
     if tasks:
         await asyncio.gather(*tasks)

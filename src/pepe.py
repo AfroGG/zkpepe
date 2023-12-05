@@ -68,7 +68,7 @@ class ZkPepe(EtherClient):
         await self.approve_token(self.zkpepe_addr, "0x2da10A1e27bF85cEdD8FFb1AbBe97e53391C0295")
 
 
-        logger.info(f"Acc.{self.index} | Preparing to mint")
+        logger.info(f"Acc.{self.index} | Preparing to Swap")
         
         steps = [{
             "pool": "0x76B39F4E0C6d66877f506bdA2041462760A68593",

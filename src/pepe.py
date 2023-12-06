@@ -97,7 +97,7 @@ class ZkPepe(EtherClient):
         
         tx = await self.swap_instance.functions.swap(
             path,
-            value_out,
+            int(value_out * (100 - SLIPPAGE) / 100),
             int(time.time()) + 1000000
         ).build_transaction({
             'chainId': 324,
